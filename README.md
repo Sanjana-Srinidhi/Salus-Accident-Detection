@@ -1,1 +1,2 @@
 # Salus-Accident-Detection
+A smart device that reads data from 3-dimensional accelerometer and gyroscope to detect accidents. Threshold for accidents has baselined through experimentation of the prototype built and machine learning model is trained using Support Vector Machine to detect an accident. If the accident is detected, the driver is notified and the application waits for a response for a specified period of time. If there is no response from the driver within the given time frame, nearest hospitals are detected using HERE API and contacted using GSM module.
